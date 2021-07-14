@@ -5,6 +5,7 @@ import { CheekComponent } from './cheek/cheek.component';
 import { EyesComponent } from './eyes/eyes.component';
 import { LipsComponent } from './lips/lips.component';
 import { MakeupRoutingModule } from './makeup-routing.module';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -13,7 +14,8 @@ import { MakeupRoutingModule } from './makeup-routing.module';
     FaceComponent,
     CheekComponent,
     EyesComponent,
-    LipsComponent
+    LipsComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
